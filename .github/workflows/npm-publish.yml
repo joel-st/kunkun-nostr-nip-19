@@ -14,8 +14,10 @@ jobs:
       - uses: oven-sh/setup-bun@v2
       - name: Clean install
         run: |
-          rm -rf node_modules bun.lockb
+          rm -rf node_modules bun.lockb bun.lock
       - run: bun install
+      - name: Explicitly install rollup linux
+        run: bun add @rollup/rollup-linux-x64-gnu
       - run: bun run build
       - name: Configure npm credentials
         uses: actions/setup-node@v4
