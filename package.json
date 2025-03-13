@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.kunkun.sh",
-  "name": "nostr-nip-19",
+  "name": "kunkun-ext-nostr-nip-19",
   "license": "CC0-1.0",
   "version": "0.0.99",
   "type": "module",
@@ -57,6 +57,20 @@
   },
   "files": [
     "dist",
+    "src",
+    "public",
+    "package.json",
+    "readme.md",
     ".gitignore"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joel-st/kunkun-nostr-nip-19"
+  },
+  "keywords": [
+    "nostr",
+    "NIP-19",
+    "generate",
+    "nostr-tools"
   ]
 }
