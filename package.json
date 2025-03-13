@@ -2,7 +2,7 @@
   "$schema": "https://schema.kunkun.sh",
   "name": "kunkun-ext-nostr-nip-19",
   "license": "CC0-1.0",
-  "version": "0.0.991",
+  "version": "0.0.992",
   "type": "module",
   "kunkun": {
     "name": "Nostr NIP-19",
